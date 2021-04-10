@@ -8,6 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		42DEC5022621E8CE004E1CCD /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42DEC5012621E8CE004E1CCD /* main.swift */; };
+		42DEC50B2621F0CD004E1CCD /* Wire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42DEC50A2621F0CD004E1CCD /* Wire.swift */; };
+		42DEC50F2621F25C004E1CCD /* Component.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42DEC50E2621F25C004E1CCD /* Component.swift */; };
+		42DEC5122621F46D004E1CCD /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42DEC5112621F46D004E1CCD /* Utility.swift */; };
+		42DEC5152621F501004E1CCD /* Builder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42DEC5142621F501004E1CCD /* Builder.swift */; };
+		42DEC5182621F640004E1CCD /* And.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42DEC5172621F640004E1CCD /* And.swift */; };
+		42DEC51B2621F860004E1CCD /* Verilog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42DEC51A2621F860004E1CCD /* Verilog.swift */; };
+		42DEC51E262203FD004E1CCD /* Globals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42DEC51D262203FD004E1CCD /* Globals.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +32,13 @@
 /* Begin PBXFileReference section */
 		42DEC4FE2621E8CE004E1CCD /* SwiftHDL */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SwiftHDL; sourceTree = BUILT_PRODUCTS_DIR; };
 		42DEC5012621E8CE004E1CCD /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		42DEC50A2621F0CD004E1CCD /* Wire.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wire.swift; sourceTree = "<group>"; };
+		42DEC50E2621F25C004E1CCD /* Component.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Component.swift; sourceTree = "<group>"; };
+		42DEC5112621F46D004E1CCD /* Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
+		42DEC5142621F501004E1CCD /* Builder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Builder.swift; sourceTree = "<group>"; };
+		42DEC5172621F640004E1CCD /* And.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = And.swift; sourceTree = "<group>"; };
+		42DEC51A2621F860004E1CCD /* Verilog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Verilog.swift; sourceTree = "<group>"; };
+		42DEC51D262203FD004E1CCD /* Globals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Globals.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +71,24 @@
 		42DEC5002621E8CE004E1CCD /* SwiftHDL */ = {
 			isa = PBXGroup;
 			children = (
+				42DEC5092621F0B5004E1CCD /* HDL */,
 				42DEC5012621E8CE004E1CCD /* main.swift */,
 			);
 			path = SwiftHDL;
+			sourceTree = "<group>";
+		};
+		42DEC5092621F0B5004E1CCD /* HDL */ = {
+			isa = PBXGroup;
+			children = (
+				42DEC50A2621F0CD004E1CCD /* Wire.swift */,
+				42DEC50E2621F25C004E1CCD /* Component.swift */,
+				42DEC5112621F46D004E1CCD /* Utility.swift */,
+				42DEC5142621F501004E1CCD /* Builder.swift */,
+				42DEC5172621F640004E1CCD /* And.swift */,
+				42DEC51A2621F860004E1CCD /* Verilog.swift */,
+				42DEC51D262203FD004E1CCD /* Globals.swift */,
+			);
+			path = HDL;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,7 +148,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42DEC5122621F46D004E1CCD /* Utility.swift in Sources */,
+				42DEC50B2621F0CD004E1CCD /* Wire.swift in Sources */,
+				42DEC50F2621F25C004E1CCD /* Component.swift in Sources */,
+				42DEC5182621F640004E1CCD /* And.swift in Sources */,
+				42DEC51E262203FD004E1CCD /* Globals.swift in Sources */,
 				42DEC5022621E8CE004E1CCD /* main.swift in Sources */,
+				42DEC51B2621F860004E1CCD /* Verilog.swift in Sources */,
+				42DEC5152621F501004E1CCD /* Builder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
